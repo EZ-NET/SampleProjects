@@ -10,8 +10,10 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-    @IBOutlet private var targetTextView: NSTextView!
-    @IBOutlet private var targetIdentifierLabel: NSTextField!
+    @IBOutlet private(set) var targetTextView1: NSTextView!
+    @IBOutlet private(set) var targetIdentifierLabel1: NSTextField!
+    @IBOutlet private(set) var targetTextView2: NSTextView!
+    @IBOutlet private(set) var targetIdentifierLabel2: NSTextField!
     
     @IBOutlet private var outputLabel: NSTextField! {
         
@@ -23,7 +25,9 @@ class ViewController: NSViewController {
     override func awakeFromNib() {
         
         super.awakeFromNib()
-        self.targetIdentifierLabel.stringValue = targetTextView.identifier!
+        
+        self.targetIdentifierLabel1.stringValue = targetTextView1.identifier!
+        self.targetIdentifierLabel2.stringValue = targetTextView2.identifier!
     }
     
     func print(output: String) {

@@ -12,9 +12,16 @@ extension ViewController : NSTextViewDelegate {
     
     func textDidChange(notification: NSNotification) {
         
-        let target = notification.object as! NSTextView
-        let text = target.string!
-        
-        print("\(target.identifier!)'s text = \"\(text)\"")
+        switch notification.object {
+            
+        case let textView as NSTextView where textView === self.targetTextView1:
+            print("Left (\(textView.identifier!)) Changed, Text = \(textView.string!)")
+            
+        case let textView as NSTextView where textView === self.targetTextView2:
+            print("Right (\(textView.identifier!)) Changed, Text = \(textView.string!)")
+            
+        default:
+            fatalError()
+        }
     }
 }
