@@ -14,16 +14,25 @@
 			remoteGlobalIDString = B1AD8FE41C53223200DD47FC;
 			remoteInfo = NSTextView.Event;
 		};
+		B1AD90221C53BCBE00DD47FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1AD900C1C53BCBD00DD47FC;
+			remoteInfo = BindingsWithProtocol;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
+		B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindingsWithProtocol.xcodeproj; path = BindingsWithProtocol/BindingsWithProtocol.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */,
 				B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */,
 			);
 			sourceTree = "<group>";
@@ -32,6 +41,14 @@
 			isa = PBXGroup;
 			children = (
 				B1AD8FFB1C53223300DD47FC /* NSTextView.Event.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1AD901F1C53BCBD00DD47FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AD90231C53BCBE00DD47FC /* BindingsWithProtocol.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +72,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = B1AD901F1C53BCBD00DD47FC /* Products */;
+					ProjectRef = B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */;
+				},
+				{
 					ProductGroup = B1AD8FF71C53223200DD47FC /* Products */;
 					ProjectRef = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
 				},
@@ -71,6 +92,13 @@
 			fileType = wrapper.application;
 			path = NSTextView.Event.app;
 			remoteRef = B1AD8FFA1C53223300DD47FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1AD90231C53BCBE00DD47FC /* BindingsWithProtocol.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BindingsWithProtocol.app;
+			remoteRef = B1AD90221C53BCBE00DD47FC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
