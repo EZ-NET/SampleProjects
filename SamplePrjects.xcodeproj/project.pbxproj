@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		B1AD8FFA1C53223300DD47FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1AD8FE41C53223200DD47FC;
+			remoteInfo = NSTextView.Event;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		B1AD8FF71C53223200DD47FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AD8FFB1C53223300DD47FC /* NSTextView.Event.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +53,27 @@
 			);
 			mainGroup = B1AD8FB31C53218A00DD47FC;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1AD8FF71C53223200DD47FC /* Products */;
+					ProjectRef = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1AD8FFB1C53223300DD47FC /* NSTextView.Event.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NSTextView.Event.app;
+			remoteRef = B1AD8FFA1C53223300DD47FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		B1AD8FB81C53218A00DD47FC /* Debug */ = {
