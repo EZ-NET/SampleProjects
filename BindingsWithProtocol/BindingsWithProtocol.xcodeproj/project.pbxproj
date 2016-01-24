@@ -42,6 +42,7 @@
 				B1AD900D1C53BCBD00DD47FC /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		B1AD900D1C53BCBD00DD47FC /* Products */ = {
 			isa = PBXGroup;
@@ -277,6 +278,7 @@
 				B1AD901D1C53BCBD00DD47FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

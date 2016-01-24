@@ -21,21 +21,31 @@
 			remoteGlobalIDString = B1AD900C1C53BCBD00DD47FC;
 			remoteInfo = BindingsWithProtocol;
 		};
+		B1B5C6481C549DFB00230A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1B5C6311C549DFA00230A3F;
+			remoteInfo = ModifierFlagsDetect;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
 		B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindingsWithProtocol.xcodeproj; path = BindingsWithProtocol/BindingsWithProtocol.xcodeproj; sourceTree = "<group>"; };
+		B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModifierFlagsDetect.xcodeproj; path = ModifierFlagsDetect/ModifierFlagsDetect.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */,
 				B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */,
 				B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		B1AD8FF71C53223200DD47FC /* Products */ = {
 			isa = PBXGroup;
@@ -49,6 +59,14 @@
 			isa = PBXGroup;
 			children = (
 				B1AD90231C53BCBE00DD47FC /* BindingsWithProtocol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B5C6441C549DFA00230A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B5C6491C549DFB00230A3F /* ModifierFlagsDetect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +94,10 @@
 					ProjectRef = B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */;
 				},
 				{
+					ProductGroup = B1B5C6441C549DFA00230A3F /* Products */;
+					ProjectRef = B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */;
+				},
+				{
 					ProductGroup = B1AD8FF71C53223200DD47FC /* Products */;
 					ProjectRef = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
 				},
@@ -99,6 +121,13 @@
 			fileType = wrapper.application;
 			path = BindingsWithProtocol.app;
 			remoteRef = B1AD90221C53BCBE00DD47FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1B5C6491C549DFB00230A3F /* ModifierFlagsDetect.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ModifierFlagsDetect.app;
+			remoteRef = B1B5C6481C549DFB00230A3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
