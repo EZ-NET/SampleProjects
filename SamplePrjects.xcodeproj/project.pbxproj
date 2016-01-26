@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		B1A56BE31C56EFBA000FD682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1A56BC11C56EFB9000FD682;
+			remoteInfo = OptionalDelegationWithProtocolExtension;
+		};
+		B1A56BE51C56EFBA000FD682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1A56BCB1C56EFB9000FD682;
+			remoteInfo = OptionalDelegationWithProtocolExtensionTests;
+		};
 		B1AD8FFA1C53223300DD47FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
@@ -31,15 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OptionalDelegationWithProtocolExtension.xcodeproj; path = OptionalDelegationWithProtocolExtension/OptionalDelegationWithProtocolExtension.xcodeproj; sourceTree = "<group>"; };
 		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
 		B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindingsWithProtocol.xcodeproj; path = BindingsWithProtocol/BindingsWithProtocol.xcodeproj; sourceTree = "<group>"; };
 		B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModifierFlagsDetect.xcodeproj; path = ModifierFlagsDetect/ModifierFlagsDetect.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		B1A56BDC1C56EFB9000FD682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1A56BE41C56EFBA000FD682 /* OptionalDelegationWithProtocolExtension.framework */,
+				B1A56BE61C56EFBA000FD682 /* OptionalDelegationWithProtocolExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */,
 				B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */,
 				B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */,
 				B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */,
@@ -101,6 +126,10 @@
 					ProductGroup = B1AD8FF71C53223200DD47FC /* Products */;
 					ProjectRef = B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */;
 				},
+				{
+					ProductGroup = B1A56BDC1C56EFB9000FD682 /* Products */;
+					ProjectRef = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -109,6 +138,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B1A56BE41C56EFBA000FD682 /* OptionalDelegationWithProtocolExtension.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OptionalDelegationWithProtocolExtension.framework;
+			remoteRef = B1A56BE31C56EFBA000FD682 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1A56BE61C56EFBA000FD682 /* OptionalDelegationWithProtocolExtensionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OptionalDelegationWithProtocolExtensionTests.xctest;
+			remoteRef = B1A56BE51C56EFBA000FD682 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B1AD8FFB1C53223300DD47FC /* NSTextView.Event.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
