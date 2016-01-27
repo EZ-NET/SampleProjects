@@ -12,12 +12,12 @@
 		B1A7F7B51C5863B5007C0982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A7F7B41C5863B5007C0982 /* Assets.xcassets */; };
 		B1A7F7B81C5863B5007C0982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A7F7B61C5863B5007C0982 /* Main.storyboard */; };
 		B1A7F7E11C5863D8007C0982 /* ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A7F7E01C5863D8007C0982 /* ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1A7F7F61C5863F3007C0982 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A7F7F51C5863F3007C0982 /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A7F7FA1C5863F3007C0982 /* ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A7F7F31C5863F3007C0982 /* ModuleA.framework */; };
 		B1A7F7FB1C5863F3007C0982 /* ModuleA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1A7F7F31C5863F3007C0982 /* ModuleA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1A7F8011C586422007C0982 /* ModuleB.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1A7F7DE1C5863D8007C0982 /* ModuleB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1A7F8031C586442007C0982 /* StructB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7F8021C586442007C0982 /* StructB.swift */; };
 		B1A7F8051C586469007C0982 /* StructA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7F8041C586469007C0982 /* StructA.swift */; };
+		B1A7F80C1C586FE3007C0982 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A7F7F51C5863F3007C0982 /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,7 +159,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A7F7F61C5863F3007C0982 /* ModuleA.h in Headers */,
 				B1A7F7E11C5863D8007C0982 /* ModuleB.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +167,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A7F80C1C586FE3007C0982 /* ModuleA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ModuleA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -541,7 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ModuleA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -566,6 +566,7 @@
 				B1A7F7BE1C5863B5007C0982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A7F7E71C5863D8007C0982 /* Build configuration list for PBXNativeTarget "ModuleB" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +575,7 @@
 				B1A7F7E91C5863D8007C0982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A7F7FC1C5863F3007C0982 /* Build configuration list for PBXNativeTarget "ModuleA" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +584,7 @@
 				B1A7F7FE1C5863F3007C0982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,4 +1,10 @@
-module ModuleA {
+framework module ModuleA {
+
+//	requires swift
+	
+//	framework module ModuleB {
+//
+//	}
 
 	export ModuleB
 }
