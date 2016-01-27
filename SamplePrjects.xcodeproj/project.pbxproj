@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		B1A56BE31C56EFBA000FD682 /* PBXContainerItemProxy */ = {
+		B1A7F7C61C5863B5007C0982 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B1A56BC11C56EFB9000FD682;
-			remoteInfo = OptionalDelegationWithProtocolExtension;
+			remoteGlobalIDString = B1A56BEB1C56F008000FD682;
+			remoteInfo = OptionalDelegationWithExtensionApp;
 		};
-		B1A56BE51C56EFBA000FD682 /* PBXContainerItemProxy */ = {
+		B1A7F7C91C5863B5007C0982 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
+			containerPortal = B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B1A56BCB1C56EFB9000FD682;
-			remoteInfo = OptionalDelegationWithProtocolExtensionTests;
+			remoteGlobalIDString = B1A7F7AD1C5863B4007C0982;
+			remoteInfo = SubModulesImport;
+		};
+		B1A7F7EC1C5863DF007C0982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1A7F7DE1C5863D8007C0982;
+			remoteInfo = ModuleB;
 		};
 		B1AD8FFA1C53223300DD47FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -46,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OptionalDelegationWithProtocolExtension.xcodeproj; path = OptionalDelegationWithProtocolExtension/OptionalDelegationWithProtocolExtension.xcodeproj; sourceTree = "<group>"; };
+		B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubModulesImport.xcodeproj; path = SubModulesImport/SubModulesImport.xcodeproj; sourceTree = "<group>"; };
 		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
 		B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindingsWithProtocol.xcodeproj; path = BindingsWithProtocol/BindingsWithProtocol.xcodeproj; sourceTree = "<group>"; };
 		B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModifierFlagsDetect.xcodeproj; path = ModifierFlagsDetect/ModifierFlagsDetect.xcodeproj; sourceTree = "<group>"; };
@@ -55,8 +63,23 @@
 		B1A56BDC1C56EFB9000FD682 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1A56BE41C56EFBA000FD682 /* OptionalDelegationWithProtocolExtension.framework */,
-				B1A56BE61C56EFBA000FD682 /* OptionalDelegationWithProtocolExtensionTests.xctest */,
+				B1A7F7C71C5863B5007C0982 /* OptionalDelegationWithExtensionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1A7F7C01C5863B5007C0982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1A7F7CA1C5863B5007C0982 /* SubModulesImport.app */,
+				B1A7F7ED1C5863DF007C0982 /* ModuleB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1A7F7D11C5863C6007C0982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,10 +87,12 @@
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */,
 				B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */,
 				B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */,
 				B1AD901E1C53BCBD00DD47FC /* BindingsWithProtocol.xcodeproj */,
 				B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */,
+				B1A7F7D11C5863C6007C0982 /* Products */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -112,6 +137,7 @@
 				en,
 			);
 			mainGroup = B1AD8FB31C53218A00DD47FC;
+			productRefGroup = B1A7F7D11C5863C6007C0982 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -130,6 +156,10 @@
 					ProductGroup = B1A56BDC1C56EFB9000FD682 /* Products */;
 					ProjectRef = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
 				},
+				{
+					ProductGroup = B1A7F7C01C5863B5007C0982 /* Products */;
+					ProjectRef = B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -138,18 +168,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B1A56BE41C56EFBA000FD682 /* OptionalDelegationWithProtocolExtension.framework */ = {
+		B1A7F7C71C5863B5007C0982 /* OptionalDelegationWithExtensionApp.app */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OptionalDelegationWithProtocolExtension.framework;
-			remoteRef = B1A56BE31C56EFBA000FD682 /* PBXContainerItemProxy */;
+			fileType = wrapper.application;
+			path = OptionalDelegationWithExtensionApp.app;
+			remoteRef = B1A7F7C61C5863B5007C0982 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B1A56BE61C56EFBA000FD682 /* OptionalDelegationWithProtocolExtensionTests.xctest */ = {
+		B1A7F7CA1C5863B5007C0982 /* SubModulesImport.app */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OptionalDelegationWithProtocolExtensionTests.xctest;
-			remoteRef = B1A56BE51C56EFBA000FD682 /* PBXContainerItemProxy */;
+			fileType = wrapper.application;
+			path = SubModulesImport.app;
+			remoteRef = B1A7F7C91C5863B5007C0982 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1A7F7ED1C5863DF007C0982 /* ModuleB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ModuleB.framework;
+			remoteRef = B1A7F7EC1C5863DF007C0982 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		B1AD8FFB1C53223300DD47FC /* NSTextView.Event.app */ = {
