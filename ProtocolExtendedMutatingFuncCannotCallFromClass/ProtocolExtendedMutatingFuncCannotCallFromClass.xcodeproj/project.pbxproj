@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B115862C1C5889D800C9AEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115862B1C5889D800C9AEE2 /* AppDelegate.swift */; };
+		B115862E1C5889D800C9AEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115862D1C5889D800C9AEE2 /* ViewController.swift */; };
+		B11586301C5889D800C9AEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B115862F1C5889D800C9AEE2 /* Assets.xcassets */; };
+		B11586331C5889D800C9AEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11586311C5889D800C9AEE2 /* Main.storyboard */; };
+		B115864A1C5889E900C9AEE2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11586491C5889E900C9AEE2 /* Protocol.swift */; };
+		B115864C1C588A0B00C9AEE2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115864B1C588A0B00C9AEE2 /* MyClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B11586281C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolExtendedMutatingFuncCannotCallFromClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B115862B1C5889D800C9AEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B115862D1C5889D800C9AEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B115862F1C5889D800C9AEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11586321C5889D800C9AEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11586341C5889D800C9AEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11586491C5889E900C9AEE2 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		B115864B1C588A0B00C9AEE2 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11586251C5889D800C9AEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B115861F1C5889D800C9AEE2 = {
+			isa = PBXGroup;
+			children = (
+				B115862A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass */,
+				B11586291C5889D800C9AEE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11586291C5889D800C9AEE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11586281C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B115862A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass */ = {
+			isa = PBXGroup;
+			children = (
+				B11586491C5889E900C9AEE2 /* Protocol.swift */,
+				B115864B1C588A0B00C9AEE2 /* MyClass.swift */,
+				B115862B1C5889D800C9AEE2 /* AppDelegate.swift */,
+				B115862D1C5889D800C9AEE2 /* ViewController.swift */,
+				B115862F1C5889D800C9AEE2 /* Assets.xcassets */,
+				B11586311C5889D800C9AEE2 /* Main.storyboard */,
+				B11586341C5889D800C9AEE2 /* Info.plist */,
+			);
+			path = ProtocolExtendedMutatingFuncCannotCallFromClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11586271C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11586371C5889D800C9AEE2 /* Build configuration list for PBXNativeTarget "ProtocolExtendedMutatingFuncCannotCallFromClass" */;
+			buildPhases = (
+				B11586241C5889D800C9AEE2 /* Sources */,
+				B11586251C5889D800C9AEE2 /* Frameworks */,
+				B11586261C5889D800C9AEE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolExtendedMutatingFuncCannotCallFromClass;
+			productName = ProtocolExtendedMutatingFuncCannotCallFromClass;
+			productReference = B11586281C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11586201C5889D800C9AEE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "EasyStyle G.K.";
+				TargetAttributes = {
+					B11586271C5889D800C9AEE2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B11586231C5889D800C9AEE2 /* Build configuration list for PBXProject "ProtocolExtendedMutatingFuncCannotCallFromClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B115861F1C5889D800C9AEE2;
+			productRefGroup = B11586291C5889D800C9AEE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11586271C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11586261C5889D800C9AEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11586301C5889D800C9AEE2 /* Assets.xcassets in Resources */,
+				B11586331C5889D800C9AEE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11586241C5889D800C9AEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B115864C1C588A0B00C9AEE2 /* MyClass.swift in Sources */,
+				B115862E1C5889D800C9AEE2 /* ViewController.swift in Sources */,
+				B115862C1C5889D800C9AEE2 /* AppDelegate.swift in Sources */,
+				B115864A1C5889E900C9AEE2 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B11586311C5889D800C9AEE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11586321C5889D800C9AEE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11586351C5889D800C9AEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B11586361C5889D800C9AEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B11586381C5889D800C9AEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProtocolExtendedMutatingFuncCannotCallFromClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ProtocolExtendedMutatingFuncCannotCallFromClass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B11586391C5889D800C9AEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProtocolExtendedMutatingFuncCannotCallFromClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ProtocolExtendedMutatingFuncCannotCallFromClass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11586231C5889D800C9AEE2 /* Build configuration list for PBXProject "ProtocolExtendedMutatingFuncCannotCallFromClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11586351C5889D800C9AEE2 /* Debug */,
+				B11586361C5889D800C9AEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11586371C5889D800C9AEE2 /* Build configuration list for PBXNativeTarget "ProtocolExtendedMutatingFuncCannotCallFromClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11586381C5889D800C9AEE2 /* Debug */,
+				B11586391C5889D800C9AEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11586201C5889D800C9AEE2 /* Project object */;
+}

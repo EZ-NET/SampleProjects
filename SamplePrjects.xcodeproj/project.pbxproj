@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		B11586421C5889D900C9AEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B115863A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B11586281C5889D800C9AEE2;
+			remoteInfo = ProtocolExtendedMutatingFuncCannotCallFromClass;
+		};
+		B11586471C5889D900C9AEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1A7F7F31C5863F3007C0982;
+			remoteInfo = ModuleA;
+		};
 		B1A7F7C61C5863B5007C0982 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
@@ -52,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B115863A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj; path = ProtocolExtendedMutatingFuncCannotCallFromClass/ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj; sourceTree = "<group>"; };
 		B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OptionalDelegationWithProtocolExtension.xcodeproj; path = OptionalDelegationWithProtocolExtension/OptionalDelegationWithProtocolExtension.xcodeproj; sourceTree = "<group>"; };
 		B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubModulesImport.xcodeproj; path = SubModulesImport/SubModulesImport.xcodeproj; sourceTree = "<group>"; };
 		B1AD8FF61C53223200DD47FC /* NSTextView.Event.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NSTextView.Event.xcodeproj; path = NSTextView.Event/NSTextView.Event.xcodeproj; sourceTree = "<group>"; };
@@ -60,6 +75,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		B115863B1C5889D800C9AEE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11586431C5889D900C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B1A56BDC1C56EFB9000FD682 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B1A7F7CA1C5863B5007C0982 /* SubModulesImport.app */,
+				B11586481C5889D900C9AEE2 /* ModuleA.framework */,
 				B1A7F7ED1C5863DF007C0982 /* ModuleB.framework */,
 			);
 			name = Products;
@@ -87,6 +111,7 @@
 		B1AD8FB31C53218A00DD47FC = {
 			isa = PBXGroup;
 			children = (
+				B115863A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj */,
 				B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */,
 				B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */,
 				B1B5C6431C549DFA00230A3F /* ModifierFlagsDetect.xcodeproj */,
@@ -157,6 +182,10 @@
 					ProjectRef = B1A56BDB1C56EFB9000FD682 /* OptionalDelegationWithProtocolExtension.xcodeproj */;
 				},
 				{
+					ProductGroup = B115863B1C5889D800C9AEE2 /* Products */;
+					ProjectRef = B115863A1C5889D800C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.xcodeproj */;
+				},
+				{
 					ProductGroup = B1A7F7C01C5863B5007C0982 /* Products */;
 					ProjectRef = B1A7F7BF1C5863B5007C0982 /* SubModulesImport.xcodeproj */;
 				},
@@ -168,6 +197,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B11586431C5889D900C9AEE2 /* ProtocolExtendedMutatingFuncCannotCallFromClass.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ProtocolExtendedMutatingFuncCannotCallFromClass.app;
+			remoteRef = B11586421C5889D900C9AEE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B11586481C5889D900C9AEE2 /* ModuleA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ModuleA.framework;
+			remoteRef = B11586471C5889D900C9AEE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B1A7F7C71C5863B5007C0982 /* OptionalDelegationWithExtensionApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;

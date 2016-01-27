@@ -15,8 +15,8 @@ import Cocoa
 }
 
 extension MyProtocol {
-    
-    var isOK: Bool {
+	
+	var isOK: Bool {
         
         return true
     }
